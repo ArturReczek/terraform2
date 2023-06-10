@@ -1,11 +1,11 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "terraform2P"
+  default = "terraform2"
 }
 
-variable "terraform2-app" {
+variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "CHANGE_ME_APP_NAME"
+  default     = "terraform2-app"
 }
 
 variable "location" {
